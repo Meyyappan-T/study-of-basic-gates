@@ -66,27 +66,41 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: MEYYAPPAN.T
+Developed by: Meyyappan T
+
+RegisterNumber: 212223240086
  
- RegisterNumber: 212223240086
+```
+module logic_gate(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+nand(y4,a,b);
+nor(y5,a,b);
+xor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
+ 
+ 
+**Logic symbol & Truthtable**
 
- ## PROGRAM
-![image](https://github.com/marcoyoi/study-of-basic-gates/assets/128804366/3b3fa420-54fb-4146-8673-679857dca46c)
+![image](https://github.com/Ganesh23013987/study-of-basic-gates/assets/147473768/b5fc0ca9-c9c3-490a-969e-b5927be95e5a)
 
 
-## Logic symbol & Truthtable
-![image](https://github.com/marcoyoi/study-of-basic-gates/assets/128804366/4de58497-c5c7-400d-aa11-0eb4c3b6c2aa)
+**RTL realization Output:** 
+
+<img width="782" alt="logic gate circuit diagram" src="https://github.com/Ganesh23013987/study-of-basic-gates/assets/147473768/dabbdbe1-b2d4-4194-841d-1bef4a8b1528">
 
 
-## RTL realization 
-![image](https://github.com/marcoyoi/study-of-basic-gates/assets/128804366/a0d77504-c39e-441f-b6c2-96d8a06ca211)
+**RTL**
+
+![logic_gate](https://github.com/Ganesh23013987/study-of-basic-gates/assets/147473768/a5d8e89b-de19-458c-a957-20259b3092ab)
 
 
-## Output:
-![image](https://github.com/marcoyoi/study-of-basic-gates/assets/128804366/3e065a8a-d147-45b9-ac48-dd89b6cdd1ff)
+**Result:**
 
-
-## Result: 
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
-
 
